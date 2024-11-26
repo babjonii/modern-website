@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/           # Disallow indexing of the admin section
+Disallow: /private-page/    # Disallow indexing of a specific page
+Disallow: /cgi-bin/         # Disallow indexing of CGI scripts directory
+Disallow: /tmp/             # Disallow indexing of temporary files directory
+Disallow: /wp-admin/        # Disallow indexing of WordPress admin section
+Disallow: /wp-includes/     # Disallow indexing of WordPress includes directory
+Disallow: /wp-content/plugins/   # Disallow indexing of WordPress plugins directory
+Disallow: /wp-content/themes/    # Disallow indexing of WordPress themes directory
